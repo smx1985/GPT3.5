@@ -155,12 +155,12 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          GPT4.0仅需￥9.99
+          公益站
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <div>
-            <a href="https://blog.wmbk.net/4786.html" target="_blank" className={styles["sidebar-sub-title"]}>
-              在线购买聊天密码
+            <a href="https://chat.wmbk.net/" target="_blank" className={styles["sidebar-sub-title"]}>
+              点击使用GPT4.0
             </a>
           </div>
         </div>
