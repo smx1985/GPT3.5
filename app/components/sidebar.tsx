@@ -157,7 +157,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           GPT￥9.99
         </div>
-        <a href="https://chat.wmbk.net/" target="_blank" class="home_sidebar-sub-title__sbT6Z">请勿公开分享本站</a>
+        <a href="https://chat.wmbk.net/" target="_blank" >请勿公开分享本站</a>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
@@ -215,8 +215,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href=https://blog.wmbk.net/ target="_blank" rel="noopener noreferrer">
-              <div class="button_icon-button-text__my76e">博客</div>
+            <a href=https://blog.wmbk.net/ target="_blank" rel="noopener noreferrer">博客</div>
             </a>
           </div>
         </div>
