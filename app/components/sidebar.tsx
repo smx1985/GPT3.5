@@ -141,7 +141,7 @@ export function SideBar(props: { className?: string }) {
     [isMobileScreen],
   );
 
-  useHotKey();
+  useHotKey(); 
 
   return (
     <div
