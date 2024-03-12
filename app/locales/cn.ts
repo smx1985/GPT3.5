@@ -358,7 +358,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，<br/>📍 获取密码请联系站长微信👉 ivx880💡 有什么可以帮你的吗？",
+    BotHello: "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码123，<br/>📍 获取密码请联系站长微信👉 ivx880💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
