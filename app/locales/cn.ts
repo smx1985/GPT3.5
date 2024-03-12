@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，\n点击去购买👉 https://blog.wmbk.net/4786.html/💖 有什么可以帮你的吗？",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，\n点击购买并查看使用教程👉 https://blog.wmbk.net/4786.html",
   },
   Auth: {
     Title: "需要密码",
@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，\n\n点击去购买👉 https://blog.wmbk.net/4786.html/💖 有什么可以帮你的吗？",
+    BotHello: "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，\n点击购买并查看使用教程👉 https://blog.wmbk.net/4786.html",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
