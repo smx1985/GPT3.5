@@ -8,11 +8,13 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，<br/>📍 获取密码请联系站长微信👉 ivx880💡 有什么可以帮你的吗？",
+      : "访问密码不正确或为空123，请前往[登录](/#/auth)页输入正确的访问密码，📍 获取密码请联系站长微信👉 ivx880💡 有什么可以帮你的吗？",
   },
   Auth: {
     Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码"
+    Tips: "管理员开启了密码验证，请在下方填入访问码",
+    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
+    Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
   },
@@ -358,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码123，<br/>📍 获取密码请联系站长微信👉 ivx880💡 有什么可以帮你的吗？",
+    BotHello: "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，📍 获取密码请联系站长微信👉 ivx880💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
