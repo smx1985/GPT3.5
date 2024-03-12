@@ -224,7 +224,7 @@ export function SideBar(props: { className?: string }) {
           <div className={styles["sidebar-action"]}>
             <a href="https://blog.wmbk.net/" target="_blank" rel="noopener noreferrer">
               <IconButton 
-                text="原版" 
+                text="博客" 
                 shadow 
               />
             </a>
