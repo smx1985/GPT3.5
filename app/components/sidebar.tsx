@@ -160,7 +160,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           <div>
             <a href="https://chat.wmbk.net/" target="_blank" className={styles["sidebar-sub-title"]}>
-              点击使用GPT4.0
+              点击使用无限制版GPT4.0
             </a>
           </div>
         </div>
